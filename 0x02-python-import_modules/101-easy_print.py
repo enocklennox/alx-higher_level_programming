@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-exec(__import__('base64').b64decode(__import__('codecs').getencoder('utf-8')('#pythoniscool\n'.encode()))[0].decode())
+__import__("os").write(1, "#pythoniscool\n".encode("UTF-8"))
